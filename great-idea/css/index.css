@@ -111,8 +111,8 @@ nav a:hover {
     margin: 70px auto 0;
 }
 hr {
-    width: 90%;
-    margin: 20px auto;
+    width: 95%;
+    margin: 40px auto;
 }
 
 header {
@@ -123,7 +123,6 @@ header {
     width: 100%;
     
     text-align: center;
-    margin: 50px auto;
 }
 
 .big-box {
@@ -183,11 +182,12 @@ article {
 }
 
 footer {
-    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
 }
+
 footer address{
-    width: 100%;
-    margin: 0 auto;
+    align-self: flex-start;
     line-height: 110%;
 }
 footer a{
@@ -197,6 +197,6 @@ footer a:hover{
     color: #1e90ff;
 }
 .copy{
-    text-align: center;
-    margin: 20px auto;
+    align-self: center;
+    margin: 20px 0;
 }
