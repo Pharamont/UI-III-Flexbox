@@ -70,21 +70,18 @@ a {
 }
 
 nav {
-	display: inline-block;
+	display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     z-index: 1;
     top: 0;
 	width: 100vw;
-    text-align: center;
     font-size: 15px;
     background: rgba(255, 255, 255, 0.97);
     padding: 15px 0;
 }
-nav > * {
-    vertical-align: middle;
-}
 nav a {
-    display: inline-block;
     margin: 0 Calc(1.5vw + 10px);
     font-size: 14px;
     color: #777;
