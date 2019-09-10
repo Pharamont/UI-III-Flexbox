@@ -73,9 +73,11 @@ nav {
 	display: flex;
     align-items: center;
     justify-content: center;
+    
     position: fixed;
     z-index: 1;
     top: 0;
+    
 	width: 100vw;
     font-size: 15px;
     background: rgba(255, 255, 255, 0.97);
@@ -188,6 +190,7 @@ footer {
 
 footer address{
     align-self: flex-start;
+    padding: 5px;
     line-height: 110%;
 }
 footer a{
