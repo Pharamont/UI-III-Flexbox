@@ -15,7 +15,12 @@
 </head>
 
 <body>
-    <nav>
+    <nav id="navigation">
+        <div class="burger" onclick="navExpand()">
+            <div class="bgr1"></div>
+            <div class="bgr2"></div>
+            <div class="bgr3"></div>
+        </div>
         <a href="services.html">Services</a>
         <a href="#">Product</a>
         <a href="#">Vision</a>
@@ -125,7 +130,7 @@
                     <li>Great thing</li>
                 </ul>
             </article>
-            
+
             <div></div>
         </section>
 
@@ -133,4 +138,9 @@
             <p class="copy">Copyright Great Idea! 2018</p>
         </footer>
     </div>
+    <script>
+        function navExpand() {
+            document.getElementById("navigation").classList.toggle("change");
+        }
+    </script>
 </body></html>
