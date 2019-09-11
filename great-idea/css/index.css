@@ -213,7 +213,11 @@ main {
     color: #000;
     font-size: 13px;
 }
-
+.main-svc article a:hover {
+    background: #1e90ff;
+    color: #fff;
+    border-color: #1e90ff;
+}
 
 .main-home {
     flex-direction: column;
@@ -228,8 +232,31 @@ section{
     width: 100%;
     margin: 15px 0;
 }
+.sec-svc {
+    align-items: flex-start;
+    margin-bottom: 70px;
+}
+.sec-svc article{
+    width: 50%;
+    padding: 0px;
+}
+.sec-svc ul {
+    margin-top: 20px;
+    list-style: square;
+    list-style-position: inside;
+}
+.sec-svc ul li {
+    margin: 10px 0;
+}
+.sec-svc>div {
+    background: url('../img/services-info.png');
+    width: 420px;
+    height: 300px;
+}
 .img-snips {
     background: url("../img/mid-page-accent.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     height: 182px;
 }
